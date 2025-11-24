@@ -17,7 +17,7 @@ const Footer = () => {
             </p>
             <div className="flex items-center gap-2 text-sm text-gray-400">
               <FiMail className="text-primary-400" />
-              <span>support@novacart.com</span>
+              <span>support@shophub.com</span>
             </div>
             <div className="flex items-center gap-2 text-sm text-gray-400 mt-2">
               <FiPhone className="text-primary-400" />
@@ -170,7 +170,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm text-center md:text-left">
-              © {currentYear} NovaCart. All rights reserved.
+              © {currentYear} ShopHub. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm text-gray-400">
               <a
