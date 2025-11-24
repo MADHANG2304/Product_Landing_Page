@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import Hero from '../components/Hero'
 import ProductsGrid from '../components/ProductsGrid'
 import FilterSection from '../components/FilterSection'
+import Footer from '../components/Footer'
 import axios from 'axios'
 
 const API_BASE_URL = 'http://localhost:5000/api'
@@ -66,6 +67,7 @@ function Home() {
         />
         <ProductsGrid products={filteredProducts} loading={loading} />
       </div>
+      <Footer />
     </>
   )
 }

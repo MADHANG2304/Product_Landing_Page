@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { FiCheckCircle } from 'react-icons/fi'
+import Footer from '../components/Footer'
 
 const Checkout = () => {
   return (

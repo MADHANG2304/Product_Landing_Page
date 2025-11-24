@@ -1,6 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom'
 import { FiTrash2, FiShoppingBag, FiPlus, FiMinus } from 'react-icons/fi'
 import { useCart } from '../context/CartContext'
+import Footer from '../components/Footer'
 
 const Cart = () => {
   const { cartItems, removeFromCart, updateQuantity, getCartTotal, clearCart } = useCart()
@@ -179,6 +180,7 @@ const Cart = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

@@ -4,6 +4,7 @@ import { FiStar, FiArrowLeft, FiShoppingCart, FiCheck } from 'react-icons/fi'
 import { AiFillStar } from 'react-icons/ai'
 import axios from 'axios'
 import { useCart } from '../context/CartContext'
+import Footer from '../components/Footer'
 
 const API_BASE_URL = 'http://localhost:5000/api'
 
@@ -101,7 +102,7 @@ const ProductDetails = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 pb-20 lg:pb-0">
       {/* Breadcrumb */}
       <div className="bg-white border-b">
         <div className="container mx-auto px-4 py-3">
@@ -272,6 +273,7 @@ const ProductDetails = () => {
           </div>
         )}
       </div>
+      <Footer />
     </div>
   )
 }

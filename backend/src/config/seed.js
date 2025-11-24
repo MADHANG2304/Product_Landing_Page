@@ -9,23 +9,39 @@ const sampleProducts = [
   // Electronics
   {
     name: 'iPhone 15 Pro',
-    category: 'Electronics',
-    price: 999,
+    category: 'Mobile Phone',
+    price: 1999,
     rating: 4.8,
     image: 'https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=500',
     description: 'The latest iPhone with advanced A17 Pro chip, stunning camera system, and all-day battery life.'
   },
   {
     name: 'Samsung Galaxy S24',
-    category: 'Electronics',
-    price: 899,
+    category: 'Mobile Phone',
+    price: 1899,
     rating: 4.7,
     image: 'https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=500',
     description: 'Flagship Android smartphone with cutting-edge features and premium design.'
   },
   {
+    name: 'Realme Gt 2',
+    category: 'Mobile Phone',
+    price: 899,
+    rating: 4.7,
+    image: 'https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW9iaWxlc3xlbnwwfHwwfHx8MA%3D%3D',
+    description: 'Flagship Android smartphone with cutting-edge features and premium design.'
+  },
+  {
+    name: 'Iphone 14',
+    category: 'Mobile Phone',
+    price: 1099,
+    rating: 4.7,
+    image: 'https://images.unsplash.com/photo-1648962491768-8d157a5ea01d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG1vYmlsZXN8ZW58MHx8MHx8fDA%3D',
+    description: 'Flagship Android smartphone with cutting-edge features and premium design.'
+  },
+  {
     name: 'MacBook Pro 16"',
-    category: 'Electronics',
+    category: 'Laptop',
     price: 2499,
     rating: 4.9,
     image: 'https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=500',
@@ -33,7 +49,7 @@ const sampleProducts = [
   },
   {
     name: 'Sony WH-1000XM5 Headphones',
-    category: 'Electronics',
+    category: 'HeadPhone',
     price: 399,
     rating: 4.8,
     image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500',
@@ -41,23 +57,39 @@ const sampleProducts = [
   },
   {
     name: 'Canon EOS R5 Camera',
-    category: 'Electronics',
+    category: 'Camera',
     price: 3899,
     rating: 4.9,
-    image: 'https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=500',
+    image: 'https://images.unsplash.com/photo-1649484696832-2f5d72a44a4d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2Fub24lMjBFT1MlMjBSNSUyMENhbWVyYXxlbnwwfHwwfHx8MA%3D%3D',
     description: 'Professional mirrorless camera with 45MP sensor and 8K video recording capabilities.'
   },
   {
     name: 'Apple Watch Series 9',
-    category: 'Electronics',
+    category: 'Smart Watch',
     price: 399,
     rating: 4.7,
     image: 'https://images.unsplash.com/photo-1551816230-ef5deaed4a26?w=500',
     description: 'Advanced smartwatch with health monitoring, fitness tracking, and cellular connectivity.'
   },
   {
+    name: 'Fire Bolt Smart Watch',
+    category: 'Smart Watch',
+    price: 299,
+    rating: 4.2,
+    image: 'https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c21hcnQlMjB3YXRjaHxlbnwwfHwwfHx8MA%3D%3D',
+    description: 'Advanced smartwatch with health monitoring, fitness tracking, and cellular connectivity.'
+  },
+  {
+    name: 'Noise Smart Watch',
+    category: 'Smart Watch',
+    price: 359,
+    rating: 4.3,
+    image: 'https://images.unsplash.com/photo-1637160151663-a410315e4e75?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c21hcnQlMjB3YXRjaHxlbnwwfHwwfHx8MA%3D%3D',
+    description: 'Advanced smartwatch with health monitoring, fitness tracking, and cellular connectivity.'
+  },
+  {
     name: 'Dell XPS 15 Laptop',
-    category: 'Electronics',
+    category: 'Laptop',
     price: 1799,
     rating: 4.6,
     image: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500',
@@ -65,15 +97,23 @@ const sampleProducts = [
   },
   {
     name: 'iPad Pro 12.9"',
-    category: 'Electronics',
+    category: 'Tablets',
     price: 1099,
     rating: 4.8,
     image: 'https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500',
     description: 'Professional tablet with M2 chip, Liquid Retina XDR display, and Apple Pencil support.'
   },
   {
+    name: 'Samsung Galaxy Tab S8',
+    category: 'Tablets',
+    price: 1599,
+    rating: 4.5,
+    image: 'https://images.unsplash.com/photo-1635500049347-7eb26a211d78?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dGFifGVufDB8fDB8fHww',
+    description: 'Professional tablet with M2 chip, Liquid Retina XDR display, and Apple Pencil support.'
+  },
+  {
     name: 'Bose QuietComfort 45',
-    category: 'Electronics',
+    category: 'HeadPhone',
     price: 329,
     rating: 4.7,
     image: 'https://images.unsplash.com/photo-1484704849700-f032a568e944?w=500',
@@ -81,23 +121,39 @@ const sampleProducts = [
   },
   {
     name: 'Samsung 55" QLED TV',
-    category: 'Electronics',
+    category: 'Tv',
     price: 1299,
     rating: 4.6,
     image: 'https://images.unsplash.com/photo-1664908791396-06604db3b36c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNhbXN1bmclMjB0dnxlbnwwfHwwfHx8MA%3D%3D',
     description: '4K QLED smart TV with Quantum HDR, voice control, and stunning picture quality.'
   },
   {
+    name: 'One Plus 43" OLED TV',
+    category: 'Tv',
+    price: 1499,
+    rating: 4.8,
+    image: 'https://plus.unsplash.com/premium_photo-1681044639299-3d461cbb9f8b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHR2fGVufDB8fDB8fHww',
+    description: '4K OLED smart TV with Quantum HDR, voice control, and stunning picture quality.'
+  },
+  {
+    name: 'IFFalcon 43" LED TV',
+    category: 'Tv',
+    price: 1499,
+    rating: 4.8,
+    image: 'https://plus.unsplash.com/premium_photo-1681044639299-3d461cbb9f8b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHR2fGVufDB8fDB8fHww',
+    description: '4K LED smart TV with Quantum HDR, HDR 10+, voice control, and stunning picture quality.'
+  },
+  {
     name: 'GoPro Hero 12',
-    category: 'Electronics',
+    category: 'Camera',
     price: 399,
     rating: 4.7,
-    image: 'https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=500',
+    image: 'https://images.unsplash.com/photo-1690099612983-acb9c168fed1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8R29Qcm8lMjBjYW1lcmF8ZW58MHx8MHx8fDA%3D',
     description: 'Action camera with 5K video, HyperSmooth stabilization, and waterproof design.'
   },
   {
     name: 'Microsoft Surface Pro 9',
-    category: 'Electronics',
+    category: 'Laptop',
     price: 999,
     rating: 4.6,
     image: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500',
@@ -210,6 +266,30 @@ const sampleProducts = [
     rating: 4.7,
     image: 'https://images.unsplash.com/photo-1614179689702-355944cd0918?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmFnfGVufDB8fDB8fHww',
     description: 'Elegant designer handbag with premium materials and sophisticated design.'
+  },
+  {
+    name: 'HP Pavilion Laptop',
+    category: 'Laptop',
+    price: 550,
+    rating: 3.9,
+    image: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wfGVufDB8fDB8fHww',
+    description: 'Elegant designer laptop with premium features and sophisticated design.'
+  },
+  {
+    name: 'Mac Book 4 Pro',
+    category: 'Laptop',
+    price: 750,
+    rating: 4.9,
+    image: 'https://images.unsplash.com/photo-1484788984921-03950022c9ef?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bGFwdG9wfGVufDB8fDB8fHww',
+    description: 'Apple 2024 MacBook Pro Laptop with M4 Pro chip with 12‑core CPU and 16‑core GPU: Built for Apple Intelligence, (14.2″) Liquid Retina XDR Display, 24GB Unified Memory, 512GB SSD Storage; Space Black.'
+  },
+  {
+    name: 'Mac Book 4 Pro Max',
+    category: 'Laptop',
+    price: 950,
+    rating: 4.9,
+    image: 'https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D',
+    description: 'Apple 2024 MacBook Pro Max Laptop with M4 Pro chip with 12‑core CPU and 16‑core GPU: Built for Apple Intelligence, (14.2″) Liquid Retina XDR Display, 24GB Unified Memory, 512GB SSD Storage; Space Black.'
   }
 ];
 
